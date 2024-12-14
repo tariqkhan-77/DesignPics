@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*html, body{
+  height: 100%;
+  width: 100%;
+}*/
+body{
+    margin: 0px;
+    background-image: url(background_img.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;  
+
+}
+
+.nav{
+  width: 100%;
+  height: 10vh;
+  /*background-color: royalblue;*/
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  justify-items: center;
+  align-items: center;
+  /*opacity: 20%;*/
+}
+.logo{
+  width: 100%;
+  height: 10vh;
+  padding-right: 50em;
+  margin-top: 2em;
+}
+
+.nav li{
+  list-style-type: none;
+}
+.nav button{
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 2em;
+  height: 2.5em;
+  width: 8em;
+  border-radius: 20px;
+  border: none;
+  opacity: 80%;
+  cursor: pointer;
+
+}
+
+.btn1{
+  font-weight: 900;
+}
+.btn2{
+  font-weight: 900;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  /*margin-top: 5vh;*/
+
+}
+.welcometo{
+  font-size: 40px;
+  letter-spacing: 4px;
+  color: ghostwhite;
+  opacity: 90%; 
+
+}
+.des_pic{
+  font-size: 10em;
+  opacity: 90%;
+  color: ghostwhite; 
+  text-decoration: underline; 
+}
+.punch_line{
+  color: ghostwhite;
+  letter-spacing: 4px;
+  font-size: 44px;
+}
+
+.browse{
+  border: 2px solid #ccc;
+  border-radius: 25px 25px 25px 25px;
+  color: black;
+  font-weight: 900;
+  font-size: 3vh;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 20px;
+  width: 300px;
+  opacity: 80%;
+}
+.search-input {
+    opacity: 80%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px 0 0 25px; /* Rounded corners */
+    outline: none;
+    width: 300px; /* Adjust width as needed */
+}
+
+.search-button {
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-left: none; /* Remove left border to connect with input */
+    border-radius: 0 25px 25px 0; /* Rounded corners */
+    background-color: #007bff; /* Button color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.search-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.search-button i {
+    font-size: 16px; /* Icon size */
+}
+
+.footer{
+  height: 8vh;
+  width: 100%;
+  background-color: skyblue;
+  margin-top: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 70%;
+}
